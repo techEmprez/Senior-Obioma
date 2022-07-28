@@ -20,8 +20,18 @@
       crossorigin="anonymous"
     ></script>
     <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <link rel="stylesheet" href="./styles/media.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
+    <link rel="stylesheet" href="./styles/desktop.css" />
+    <script src="./js/index.js" defer></script>
     <title>Senior Oboima</title>
   </head>
   <body>
@@ -30,7 +40,7 @@
     </div>
 
     <header class="header-section">
-      <!-- <div class="top-nav">
+      <div class="top-nav">
         <ul>
           <li>
             <a href="#"
@@ -57,11 +67,23 @@
             /></a>
           </li>
           <li>
-            <a class="text-danger text-decoration-none" href="#">English</a>
+            <a class="top-nav-icon text-danger text-decoration-none" href="#"
+              >English</a
+            >
           </li>
         </ul>
-      </div> -->
+      </div>
       <nav class="navbar nav-section">
+        <img
+          class="hamburger no-display"
+          src="./images/hamburger.png"
+          alt="hamburger"
+        />
+        <img
+          src="./images/close.png"
+          alt="hamburger close"
+          class="no-display in-front hamburger1"
+        />
         <a href="/index.html">
           <img class="nav-logo" src="./images/sbLogo.svg" alt="navLogo" />
         </a>
@@ -76,5 +98,23 @@
         </ul>
       </nav>
     </header>
+
+    <section class="home">
+      <div class="home-section">
+        <h1 class="home-description">"Hello There!!!"</h1>
+        <p class="home-description">
+          Welcome to Senior Obioma's World Where we offer be-spoke services
+          and<br />
+          bring imaginary thoughts to reality. We also train, as well as events
+          holdings in a grandeur.
+        </p>
+      </div>
+
+      <div class="home-paragraph">
+        A fun festival where people from more than 80 countries who believe in t
+        he value of sharing and openness and create positive change gather and
+        share ideas will be held in Korea in October.
+      </div>
+    </section>
   </body>
 </html>

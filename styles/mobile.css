@@ -1,0 +1,24 @@
+
+.hamburger,
+.hamburger1 {
+  width: 50px;
+  margin: 19px;
+  float: left;
+}
+
+.in-front {
+  position: fixed;
+  right: 5%;
+  top: 2.5%;
+  z-index: 1;
+}
+
+.home-description {
+  position: relative;
+  top: 20px;
+  color: black;
+  font-size: 20px;
+  margin: auto;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}

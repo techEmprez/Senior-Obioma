@@ -1,0 +1,108 @@
+/*MEDIA QUERIES FOR DESKTOP STYLING */
+
+@media only screen and (min-width: 768px) {
+  .no-display {
+    display: none;
+  }
+
+  .header-section {
+    position: fixed;
+    padding-top: 10px;
+    width: 100%;
+    height: 95px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  .nav-section,
+  .nav-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    bottom: 20px;
+    font-family: "COCOGOOSE", sans-serif;
+  }
+
+  .nav-logo {
+    width: 100px;
+    margin-left: 70px;
+  }
+
+  .nav-link a,
+  .nav-gallery {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    margin-left: 50px;
+    left: -50px;
+  }
+
+  .nav-gallery {
+    border-style: none;
+    background-color: #ec5242;
+    width: 70%;
+  }
+
+  .nav-gallery:hover,
+  .nav-link a:hover {
+    color: #d3d3d3;
+  }
+
+  .top-nav-icon {
+    width: 20px;
+    margin-right: 20px;
+    /* margin-left: 20px; */
+  }
+
+  .top-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .top-nav a {
+    margin-left: 30px;
+  }
+
+  .top-nav {
+    height: 28px;
+    margin: -10px 0 -10px 0;
+    padding: 17px 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0;
+    background-color: #272a31;
+  }
+
+  .home {
+    position: relative;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100vw;
+    top: 95px;
+    background: rgba(237, 232, 232, 0.4);
+  }
+
+  .home-description {
+    position: relative;
+    top: 90px;
+    color: #272831;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+
+  .home-paragraph {
+    
+  }
+}

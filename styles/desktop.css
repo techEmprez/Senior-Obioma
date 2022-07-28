@@ -82,12 +82,10 @@
   }
 
   .home {
-    position: relative;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
+    position: fixed;
     width: 80%;
     height: 100vw;
+    margin-left: 130px;
     top: 95px;
     background: rgba(237, 232, 232, 0.4);
   }
@@ -103,6 +101,11 @@
   }
 
   .home-paragraph {
-    
+    position: relative;
+    border: 2px solid #d3d3d3;
+    width: 60%;
+    top: 100px;
+    padding: 12px;
+    margin-left: 50px;
   }
 }

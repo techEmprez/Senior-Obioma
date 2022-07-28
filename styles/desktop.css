@@ -11,7 +11,7 @@
     width: 100%;
     height: 95px;
     top: 0px;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.7);
   }
 
   .nav-section,
@@ -45,8 +45,11 @@
     width: 70%;
   }
 
-  .nav-gallery:hover,
   .nav-link a:hover {
+    color: #ec5242;
+  }
+
+  .nav-gallery:hover {
     color: #d3d3d3;
   }
 
@@ -82,19 +85,28 @@
   }
 
   .home {
-    position: fixed;
+    position: relative;
     width: 80%;
-    height: 100vw;
+    height: 40vw;
     margin-left: 130px;
-    top: 95px;
-    background: rgba(237, 232, 232, 0.4);
+    top: 55px;
+    background: rgba(237, 232, 232, 0.5);
   }
 
   .home-description {
     position: relative;
     top: 90px;
     color: #272831;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+
+  .home-description1 {
+    position: relative;
+    top: 90px;
+    color: #272831;
     margin-left: 50px;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -107,5 +119,21 @@
     top: 100px;
     padding: 12px;
     margin-left: 50px;
+  }
+
+  .gallery-section {
+    background-image: url("/images/gallery.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .gallery h4 {
+    color: #d3d3d3;
+    text-align: center;
+    font-size: 25px;
+    font-family: "COCOGOOSE", sans-serif;
   }
 }

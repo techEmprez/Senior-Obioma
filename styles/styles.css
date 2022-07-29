@@ -18,3 +18,12 @@ section h1 {
   margin-left: auto;
   margin-right: auto;
 }
+
+ hr {
+    color: #ec5242;
+    width: 50px;
+    border: 2px solid #ec5242;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }

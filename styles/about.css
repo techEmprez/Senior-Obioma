@@ -1,8 +1,8 @@
 @media only screen and (min-width: 768px) {
   .about-img {
     background-size: cover;
-    width: 50%;
-    height: 30vw;
+    width: 40%;
+    height: 20vw;
   }
 
   .about {
@@ -54,6 +54,16 @@
     color: #d3d3d3;
     width: 60%;
     top: 100px;
+    padding: 12px;
+    margin: auto;
+  }
+
+  .about-paragraph {
+    position: relative;
+    border: none;
+    color: #d3d3d3;
+    width: 60%;
+    top: 20px;
     padding: 12px;
     margin: auto;
   }

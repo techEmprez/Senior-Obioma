@@ -1,46 +1,58 @@
-function qs(selector = "*", element = document) {
-  return element.querySelector(selector);
-}
+const gallery = [
+  {
+    image: "./images/ankaraGown.jpg",
+    imageAlternative: "Ankara Gown",
+    title: "Ankara Gowns",
+    description: "This is a beautiful female ankara printed gown",
+  },
+  {
+    image: "./images/ankaraGown.jpg",
+    imageAlternative: "Ankara Gown",
+    title: "Ankara Gowns",
+    description: "This is a beautiful female ankara printed gown",
+  },
+ 
+];
+const galleryCards = document.querySelector(".gallery-cards");
+gallery.forEach(function (card) {
+  let cardImage = document.createElement("img");
+  cardImage.className = "card-img";
+  cardImage.src = `${card.image}`;
+  cardImage.alt = `${card.imageAlternative}`;
 
-function qsa(selector = "*", element = document) {
-  return [...element.querySelectorAll(selector)];
-}
+  let title = document.createElement("h5");
+  title.className = "card-title";
+  title.innerHTML = `${card.title}`;
 
-const burger = qs('img[alt="hamburger"]');
-const burgerClose = qs('img[alt="hamburger close"]');
+  let description = document.createElement("p");
+  description.className = "card-text";
+  description.innerHTML = `${card.description}`;
 
-function toggleBurger() {
-  burger.classList.toggle("no-display");
-  burgerClose.classList.toggle("no-display");
-  qs("div.nav-links").classList.toggle("enlarged-menu");
-}
+  let imgDiv = document.createElement("div");
+  imgDiv.className = "col-md-6";
+  imgDiv.appendChild(cardImage);
 
-qs(".hamburger").addEventListener("click", (e) => {
-  const { target } = e;
-  if (!target.tagName.toLowerCase() === "img") return;
+  let contentDiv = document.createElement("div");
+  contentDiv.className = "card-body mt-5";
+  contentDiv.appendChild(title);
+  contentDiv.appendChild(description);
 
-  toggleBurger();
-});
+  let contentDiv2 = document.createElement("div");
+  contentDiv2.className = "col-md-6 bg-gradient";
+  contentDiv2.appendChild(contentDiv);
 
-qs("div.nav-links").addEventListener("click", (e) => {
-  if (window.innerWidth >= 768) return;
-  if (e.target.tagName.toLowerCase() !== "a") return;
+  let contentDiv3 = document.createElement("div");
+  contentDiv3.className = "row no-gutters";
+  contentDiv3.appendChild(imgDiv);
+  contentDiv3.appendChild(contentDiv2);
 
-  toggleBurger();
-  qs(e.target.getAttribute("href").replace("#", ".")).scrollIntoView();
-});
+  let contentDiv4 = document.createElement("div");
+  contentDiv4.className = "card mb-3";
+  contentDiv4.appendChild(contentDiv3);
 
-window.onresize = () => {
-  if (
-    window.innerWidth >= 768 &&
-    qs("div.nav-links").classList.contains("enlarged-menu")
-  ) {
-    toggleBurger();
-  }
-};
+  let contentDiv5 = document.createElement("div");
+  contentDiv5.className = "card-deck col-6";
+  contentDiv5.appendChild(contentDiv4);
 
-qsa("div.nav-links a").forEach((link) => {
-  link.addEventListener("click", (e) => {
-    qs(e.target.getAttribute("href").replace("#", ".")).scrollIntoView();
-  });
+  galleryCards.appendChild(contentDiv5);
 });

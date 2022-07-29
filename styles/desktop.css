@@ -21,7 +21,7 @@
     justify-content: space-between;
     list-style: none;
     bottom: 20px;
-    font-family: "COCOGOOSE", sans-serif;
+    font-family: "COCOGOOSE", "Lato", sans-serif;
   }
 
   .nav-logo {
@@ -242,7 +242,7 @@
     width: 100%;
     height: 25vw;
     top: 190px;
-    background: rgba(237, 232, 232, 0.6);
+    background: rgba(237, 232, 232, 0.7);
     font-size: 30px;
     font-family: "COCOGOOSE", "LATO" sans-serif;
     text-align: center;

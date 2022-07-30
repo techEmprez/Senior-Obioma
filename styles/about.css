@@ -19,7 +19,7 @@
   }
 
   .about-home {
-    background-image: url("/images/about-home1.png");
+    background-image: url('/images/about-home1.png');
     background-size: cover;
     position: relative;
     width: 100%;

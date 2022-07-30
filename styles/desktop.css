@@ -1,4 +1,4 @@
-/*MEDIA QUERIES FOR DESKTOP STYLING */
+/* MEDIA QUERIES FOR DESKTOP STYLING */
 
 @media only screen and (min-width: 768px) {
   .no-display {
@@ -15,7 +15,7 @@
     padding-top: 10px;
     width: 100%;
     height: 95px;
-    top: 0px;
+    top: 0;
     background: rgba(255, 255, 255, 0.7);
   }
 
@@ -49,6 +49,19 @@
     background-color: #ec5242;
     width: 70%;
   }
+
+  .top-nav a {
+    margin-left: 30px;
+  }
+
+  .gallery-btn {
+    width: 20%;
+    height: 50px;
+    color: #272a31;
+    background-color: #ec5242;
+    font-size: 18px;
+  }
+
   .gallery-btn,
   .nav-link a:hover {
     color: #ec5242;
@@ -78,10 +91,6 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
-  }
-
-  .top-nav a {
-    margin-left: 30px;
   }
 
   .top-nav {
@@ -153,14 +162,6 @@
     font-family: 'COCOGOOSE', sans-serif;
   }
 
-  .gallery-btn {
-    width: 20%;
-    height: 50px;
-    color: #272a31;
-    background-color: #ec5242;
-    font-size: 18px;
-  }
-
   .button {
     text-align: center;
     margin-top: 50px;
@@ -229,10 +230,9 @@
   .airbnb {
     color: #d3d3d3;
     font-size: 30px;
-    font-family: 'COCOGOOSE', 'LATO' sans-serif;
+    font-family: 'Cocogoose', 'Lato', sans-serif;
     text-align: center;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
@@ -247,14 +247,13 @@
   }
 
   .footer-section {
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: 'Cocogoose', 'Lato', sans-serif;
     position: relative;
     width: 100%;
     height: 25vw;
     top: 190px;
     background: rgba(237, 232, 232, 0.9);
     font-size: 30px;
-    font-family: 'COCOGOOSE', 'LATO' sans-serif;
     text-align: center;
     display: flex;
     flex-wrap: wrap;

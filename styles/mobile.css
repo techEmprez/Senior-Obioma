@@ -118,9 +118,21 @@
   background-color: #ec5242;
   width: 70%;
 }
+
+.top-nav a {
+  margin-left: 30px;
+}
+
 .gallery-btn,
 .nav-link a:hover {
   color: #ec5242;
+}
+
+.gallery-btn {
+  height: 50px;
+  color: #272a31;
+  background-color: #ec5242;
+  font-size: 18px;
 }
 
 .nav-gallery,
@@ -146,10 +158,6 @@
   gap: 10px;
 }
 
-.top-nav a {
-  margin-left: 30px;
-}
-
 .top-nav {
   height: 28px;
   margin: -10px 0 -10px 0;
@@ -168,6 +176,7 @@
   padding-bottom: 150px;
   margin-left: auto;
   margin-right: auto;
+
   /* top: 55px; */
   background: rgba(237, 232, 232, 0.5);
 }
@@ -215,13 +224,6 @@
   text-align: center;
   font-size: 25px;
   font-family: 'COCOGOOSE', sans-serif;
-}
-
-.gallery-btn {
-  height: 50px;
-  color: #272a31;
-  background-color: #ec5242;
-  font-size: 18px;
 }
 
 .button {
@@ -342,6 +344,7 @@
   text-align: center;
   padding-bottom: 50px;
 }
+
 .about-home {
   background-image: url('/images/about-home1.png');
   background-size: cover;

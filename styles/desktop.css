@@ -1,0 +1,276 @@
+/* MEDIA QUERIES FOR DESKTOP STYLING */
+
+@media only screen and (min-width: 768px) {
+  .no-display {
+    display: none;
+  }
+
+  .disappearing-nav1 {
+    display: none;
+  }
+
+  .header-section {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    width: 100%;
+    height: 95px;
+    top: 0;
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+  .nav-section,
+  .nav-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    bottom: 20px;
+    font-family: 'COCOGOOSE', 'Lato', sans-serif;
+  }
+
+  .nav-logo {
+    width: 100px;
+    margin-left: 70px;
+  }
+
+  .nav-link a,
+  .nav-gallery {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    margin-left: 50px;
+    left: -50px;
+  }
+
+  .nav-gallery {
+    border-style: none;
+    background-color: #ec5242;
+    width: 70%;
+  }
+
+  .top-nav a {
+    margin-left: 30px;
+  }
+
+  .gallery-btn {
+    width: 20%;
+    height: 50px;
+    color: #272a31;
+    background-color: #ec5242;
+    font-size: 18px;
+  }
+
+  .nav-link a:hover {
+    color: #ec5242;
+  }
+
+  .nav-gallery:hover,
+  .gallery-btn:hover {
+    color: #d3d3d3;
+  }
+
+  .gallery-cards {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .top-nav-icon {
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  .top-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .top-nav {
+    height: 28px;
+    margin: -10px 0 -10px 0;
+    padding: 17px 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0;
+    background-color: #272a31;
+  }
+
+  .home {
+    position: relative;
+    width: 80%;
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 55px;
+    background: rgba(237, 232, 232, 0.5);
+  }
+
+  .home-description {
+    position: relative;
+    top: 90px;
+    color: #272831;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+
+  .home-description1 {
+    position: relative;
+    top: 90px;
+    color: #272831;
+    margin-left: 50px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+
+  .home-paragraph {
+    position: relative;
+    border: 2px solid #d3d3d3;
+    width: 60%;
+    top: 100px;
+    padding: 12px;
+    margin-left: 50px;
+  }
+
+  .gallery-section {
+    background-image: url('/images/gallery.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    top: 55px;
+    width: 80%;
+    height: 50vw;
+  }
+
+  .gallery h4 {
+    color: #d3d3d3;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+
+  .button {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .card-img-top {
+    width: 60px;
+    margin: auto;
+  }
+
+  .card-body {
+    background-color: #272831;
+    text-align: center;
+    border: none;
+    width: 100%;
+    height: 22vw;
+  }
+
+  .card-title {
+    color: #ec5242;
+    text-align: center;
+  }
+
+  .card-text {
+    color: #d3d3d3;
+    text-align: center;
+  }
+
+  .card-deck {
+    /* padding-left: 130px; */
+    width: auto;
+  }
+
+  .card {
+    width: 400px;
+    flex-direction: column;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .customer-review {
+    position: relative;
+    width: 100%;
+    height: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 190px;
+    background: rgba(237, 232, 232, 0.5);
+  }
+
+  .partners {
+    background-color: #272a31;
+    position: relative;
+    width: 100%;
+    height: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 190px;
+    color: #d3d3d3;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .partners-list,
+  .airbnb {
+    color: #d3d3d3;
+    font-size: 30px;
+    font-family: 'Cocogoose', 'Lato', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .airbnb img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .ptn {
+    margin-top: 100px;
+  }
+
+  .footer-section {
+    font-family: 'Cocogoose', 'Lato', sans-serif;
+    position: relative;
+    width: 100%;
+    height: 25vw;
+    top: 190px;
+    background: rgba(237, 232, 232, 0.9);
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .footer-section p {
+    color: #ec5242;
+    font-size: 15px;
+  }
+
+  .footer-section img {
+    position: relative;
+    width: 10%;
+    height: 50px;
+  }
+
+  .footer {
+    padding-top: 170px;
+  }
+}

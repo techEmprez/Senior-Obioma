@@ -1,0 +1,396 @@
+.no-display {
+  display: none;
+}
+
+/* Hamburger CSS */
+
+.nav-mobile {
+  z-index: 1;
+  background-color: #d3d3d3;
+}
+
+.ham-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 4px;
+  background-color: #272a31;
+  margin: 6px 0;
+  margin-left: 10px;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Mobile Menu */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #d3d3d3;
+  padding: 14px 16px;
+  height: 600px;
+  overflow: auto;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.dropdown-content a {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid;
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+}
+
+.show {
+  display: block;
+}
+
+.disappearing-nav2 {
+  display: none;
+}
+
+.navigation {
+  text-decoration: none;
+}
+
+/* END OF HAMBURGER STYLES */
+
+.background {
+  position: fixed;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-section {
+  display: none;
+}
+
+.nav-section,
+.nav-item {
+  display: none;
+}
+
+.nav-logo {
+  width: 100px;
+  margin-left: 70px;
+}
+
+.nav-link a,
+.nav-gallery {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+  margin-left: 50px;
+  left: -50px;
+}
+
+.nav-gallery {
+  border-style: none;
+  background-color: #ec5242;
+  width: 70%;
+}
+
+.top-nav a {
+  margin-left: 30px;
+}
+
+.gallery-btn,
+.nav-link a:hover {
+  color: #ec5242;
+}
+
+.gallery-btn {
+  height: 50px;
+  color: #272a31;
+  background-color: #ec5242;
+  font-size: 18px;
+}
+
+.nav-gallery,
+.gallery-btn:hover {
+  color: #d3d3d3;
+}
+
+.gallery-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-nav-icon {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-nav {
+  height: 28px;
+  margin: -10px 0 -10px 0;
+  padding: 17px 0 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 0;
+  background-color: #272a31;
+}
+
+.home {
+  position: relative;
+  padding-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* top: 55px; */
+  background: rgba(237, 232, 232, 0.5);
+}
+
+.home-description {
+  position: relative;
+  top: 90px;
+  color: #272831;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.home-description1 {
+  position: relative;
+  top: 90px;
+  color: #272831;
+  margin-left: 50px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.home-paragraph {
+  position: relative;
+  border: 2px solid #d3d3d3;
+  width: 60%;
+  top: 100px;
+  padding: 12px;
+  margin-left: 50px;
+}
+
+.gallery-section {
+  background-image: url('/images/gallery.jpg');
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  top: 55px;
+  padding-bottom: 50px;
+}
+
+.gallery h4 {
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card-img-top {
+  width: 60px;
+  margin: auto;
+}
+
+.card-body {
+  background-color: #272831;
+  text-align: center;
+  border: none;
+  width: 100%;
+}
+
+.card-title {
+  color: #ec5242;
+  text-align: center;
+}
+
+.card-text {
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.card-deck {
+  width: 100%;
+}
+
+.card {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.customer-review {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 190px;
+  background: rgba(237, 232, 232, 0.5);
+  padding-bottom: 50px;
+}
+
+.partners {
+  background-color: #272a31;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 190px;
+  color: #d3d3d3;
+  text-align: center;
+  padding: 50px;
+}
+
+.partners-list,
+.airbnb {
+  color: #d3d3d3;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.airbnb img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-section {
+  font-family: 'COCOGOOSE', sans-serif;
+  position: relative;
+  top: 190px;
+  background: rgba(237, 232, 232, 0.9);
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-section p {
+  color: #ec5242;
+  font-size: 15px;
+}
+
+.footer-section img {
+  position: relative;
+  width: 10%;
+  height: 50px;
+}
+
+/* About section */
+
+.about-img {
+  background-size: cover;
+  width: 40%;
+}
+
+.about {
+  background-color: #272a31;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 70px;
+  color: #d3d3d3;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.about-home {
+  background-image: url('/images/about-home1.png');
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: -30px;
+  padding-bottom: 155px;
+}
+
+.about-home-description {
+  position: relative;
+  top: 90px;
+  color: #d3d3d3;
+  font-size: 25px;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.about-home-description1 {
+  position: relative;
+  top: 90px;
+  color: #d3d3d3;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.about-home-paragraph {
+  position: relative;
+  border: 1px solid #ec5242;
+  color: #d3d3d3;
+  width: 80%;
+  top: 100px;
+  padding: 12px;
+  margin: auto;
+}
+
+.about-paragraph {
+  position: relative;
+  border: none;
+  color: #d3d3d3;
+  width: 60%;
+  top: 20px;
+  padding: 12px;
+  margin: auto;
+}

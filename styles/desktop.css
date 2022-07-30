@@ -62,12 +62,11 @@
     font-size: 18px;
   }
 
-  .gallery-btn,
   .nav-link a:hover {
     color: #ec5242;
   }
 
-  .nav-gallery,
+  .nav-gallery:hover,
   .gallery-btn:hover {
     color: #d3d3d3;
   }

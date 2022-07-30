@@ -60,8 +60,11 @@
   }
 
   .gallery-cards {
+    width: 90%;
+    margin: 0 auto;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
   .top-nav-icon {

@@ -26,18 +26,6 @@ const gallery = [
     title: 'Ankara Gowns',
     description: 'This is a beautiful female ankara printed gown',
   },
-  {
-    image: './images/ankaraGown.jpg',
-    imageAlternative: 'Ankara Gown',
-    title: 'Ankara Gowns',
-    description: 'This is a beautiful female ankara printed gown',
-  },
-  {
-    image: './images/ankaraGown.jpg',
-    imageAlternative: 'Ankara Gown',
-    title: 'Ankara Gowns',
-    description: 'This is a beautiful female ankara printed gown',
-  },
 ];
 const galleryCards = document.querySelector('.gallery-cards');
 if (galleryCards) {

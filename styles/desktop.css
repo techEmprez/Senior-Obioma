@@ -5,6 +5,10 @@
     display: none;
   }
 
+  .disappearing-nav1{
+    display: none;
+  }
+
   .header-section {
     position: relative;
     display: block;

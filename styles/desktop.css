@@ -5,7 +5,7 @@
     display: none;
   }
 
-  .disappearing-nav1{
+  .disappearing-nav1 {
     display: none;
   }
 
@@ -26,7 +26,7 @@
     justify-content: space-between;
     list-style: none;
     bottom: 20px;
-    font-family: "COCOGOOSE", "Lato", sans-serif;
+    font-family: 'COCOGOOSE', 'Lato', sans-serif;
   }
 
   .nav-logo {
@@ -61,8 +61,7 @@
 
   .gallery-cards {
     flex-direction: row;
-    gap: 2vw;
-    margin-right: 15%;
+    justify-content: space-evenly;
   }
 
   .top-nav-icon {
@@ -134,7 +133,7 @@
   }
 
   .gallery-section {
-    background-image: url("/images/gallery.jpg");
+    background-image: url('/images/gallery.jpg');
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,7 +147,7 @@
     color: #d3d3d3;
     text-align: center;
     font-size: 25px;
-    font-family: "COCOGOOSE", sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
   }
 
   .gallery-btn {
@@ -188,7 +187,8 @@
   }
 
   .card-deck {
-    padding-left: 130px;
+    /* padding-left: 130px; */
+    width: auto;
   }
 
   .card {
@@ -226,7 +226,7 @@
   .airbnb {
     color: #d3d3d3;
     font-size: 30px;
-    font-family: "COCOGOOSE", "LATO" sans-serif;
+    font-family: 'COCOGOOSE', 'LATO' sans-serif;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -244,14 +244,14 @@
   }
 
   .footer-section {
-    font-family: "COCOGOOSE", sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     position: relative;
     width: 100%;
     height: 25vw;
     top: 190px;
     background: rgba(237, 232, 232, 0.9);
     font-size: 30px;
-    font-family: "COCOGOOSE", "LATO" sans-serif;
+    font-family: 'COCOGOOSE', 'LATO' sans-serif;
     text-align: center;
     display: flex;
     flex-wrap: wrap;

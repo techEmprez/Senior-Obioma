@@ -56,7 +56,7 @@
 .dropdown-content a {
   display: flex;
   flex-direction: column;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -201,7 +201,7 @@
 }
 
 .gallery-section {
-  background-image: url("/images/gallery.jpg");
+  background-image: url('/images/gallery.jpg');
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -214,7 +214,7 @@
   color: #d3d3d3;
   text-align: center;
   font-size: 25px;
-  font-family: "COCOGOOSE", sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .gallery-btn {
@@ -252,10 +252,12 @@
 }
 
 .card-deck {
-  padding-left: 130px;
+  width: 100%;
 }
 
 .card {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   border-radius: 5px;
@@ -301,7 +303,7 @@
 }
 
 .footer-section {
-  font-family: "COCOGOOSE", sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   position: relative;
   top: 190px;
   background: rgba(237, 232, 232, 0.9);
@@ -322,7 +324,6 @@
   height: 50px;
 }
 
-
 /* About section */
 
 .about-img {
@@ -342,7 +343,7 @@
   padding-bottom: 50px;
 }
 .about-home {
-  background-image: url("/images/about-home1.png");
+  background-image: url('/images/about-home1.png');
   background-size: cover;
   position: relative;
   width: 100%;

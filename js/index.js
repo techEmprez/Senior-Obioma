@@ -6,12 +6,12 @@ hamburger.addEventListener('click', () => {
   document.getElementById('myHamburger').classList.toggle('change');
 });
 
-document.querySelectorAll('.nav-link').forEach((n) =>
+document.querySelectorAll('.nav-link').forEach((n) => {
   n.addEventListener('click', () => {
     document.getElementById('myDropdown').classList.remove('show');
     document.getElementById('myHamburger').classList.remove('change');
-  })
-);
+  });
+});
 
 const gallery = [
   {
@@ -29,43 +29,43 @@ const gallery = [
 ];
 const galleryCards = document.querySelector('.gallery-cards');
 if (galleryCards) {
-  gallery.forEach(function (card) {
-    let cardImage = document.createElement('img');
+  gallery.forEach((card) => {
+    const cardImage = document.createElement('img');
     cardImage.className = 'card-img';
     cardImage.src = `${card.image}`;
     cardImage.alt = `${card.imageAlternative}`;
 
-    let title = document.createElement('h5');
+    const title = document.createElement('h5');
     title.className = 'card-title';
     title.innerHTML = `${card.title}`;
 
-    let description = document.createElement('p');
+    const description = document.createElement('p');
     description.className = 'card-text';
     description.innerHTML = `${card.description}`;
 
-    let imgDiv = document.createElement('div');
+    const imgDiv = document.createElement('div');
     imgDiv.className = 'col-md-6';
     imgDiv.appendChild(cardImage);
 
-    let contentDiv = document.createElement('div');
+    const contentDiv = document.createElement('div');
     contentDiv.className = 'card-body mt-5';
     contentDiv.appendChild(title);
     contentDiv.appendChild(description);
 
-    let contentDiv2 = document.createElement('div');
+    const contentDiv2 = document.createElement('div');
     contentDiv2.className = 'col-md-6 bg-gradient';
     contentDiv2.appendChild(contentDiv);
 
-    let contentDiv3 = document.createElement('div');
+    const contentDiv3 = document.createElement('div');
     contentDiv3.className = 'row no-gutters';
     contentDiv3.appendChild(imgDiv);
     contentDiv3.appendChild(contentDiv2);
 
-    let contentDiv4 = document.createElement('div');
+    const contentDiv4 = document.createElement('div');
     contentDiv4.className = 'card mb-3';
     contentDiv4.appendChild(contentDiv3);
 
-    let contentDiv5 = document.createElement('div');
+    const contentDiv5 = document.createElement('div');
     contentDiv5.className = 'card-deck col-6';
     contentDiv5.appendChild(contentDiv4);
 

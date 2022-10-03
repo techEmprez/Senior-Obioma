@@ -11,6 +11,15 @@ and beauty.
 
 - [Live Demo](https://techemprez.github.io/Senior-Oboima/)
 
+## Home Page View
+- <img width="959" alt="image" src="https://user-images.githubusercontent.com/43815180/193672380-98fa72cb-d3e3-4c2d-8d1d-da823307c12d.png">
+
+## Programs Page
+- <img width="956" alt="image" src="https://user-images.githubusercontent.com/43815180/193673033-2f5dfe0d-cb37-4d53-9d98-b21fdaf6520c.png">
+
+## About Page View
+- <img width="960" alt="image" src="https://user-images.githubusercontent.com/43815180/193673419-407b4bd6-35af-4163-8656-27d6cd18eae0.png">
+
 ## Author
 
 👤 **Choice Osobor**

@@ -1,7 +1,6 @@
 # Senior-Oboima
 
-A Be-spoke run-way fashion site with african prints, creating contents with images and
-and beauty.
+A bespoke runway fashion site with African prints that creates content through images and beauty.
 
 ## Built With
 

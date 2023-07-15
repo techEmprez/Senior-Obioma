@@ -1,4 +1,4 @@
-# Senior-Oboima
+# Senior-Obioma
 
 A bespoke runway fashion site with African prints that creates content through images and beauty.
 A Runway fashion site built with Reactjs designed to showcase African prints and fashion collections.

@@ -1,6 +1,13 @@
 # Senior-Oboima
 
 A bespoke runway fashion site with African prints that creates content through images and beauty.
+A Runway fashion site built with Reactjs designed to showcase African prints and fashion collections.
+The site utilizes the React framework to provide an interactive and dynamic user experience.
+Its main feature is the display of catalogs and sewing dresses. Users can browse
+through a variety of fashion collections, including outfits made from vibrant African
+prints, showcasing the latest trends, designs, and styles, allowing users to
+explore the diverse range of options available. The site also offers functionality for
+scheduling bookings and training. The scheduling feature enables users to select a convenient date and time, ensuring a seamless and personalized experience.
 
 ## Built With
 
